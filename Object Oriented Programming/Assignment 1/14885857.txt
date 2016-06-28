@@ -1,0 +1,73 @@
+Film class:
+
+Enter the film's title: 
+Batman
+Enter the film's rating: 
+16
+The movie's title is: Batman
+The rating is: 16
+_______________________________________
+
+Customer class:
+
+Enter the customer's name: 
+Paludo
+Enter the customer's age: 
+20
+Is the customer a student? Type, Y for YES and N for NO.
+Y
+The customer's name is: Paludo
+The customer's age is: 20
+The customer is a student.
+_______________________________________
+
+Ticket class:
+
+------------------------------------------------------------
+FILM TICKET for: Suicide Squad rating: (M)
+CUSTOMER DETAILS: Mateus Felipe Paludo age: 20 Student? Yes
+TOTAL COST: $8,50
+------------------------------------------------------------
+_______________________________________
+
+CinemaTicketBookingApplication:
+
+Welcome to the Cinema Ticket Purchasing System
+Please enter your name:
+Paludo
+Please enter your age:
+20
+Are you a student? (Y/N)
+Y
+Which film would you like to watch:
+1 Suicide Squad rating: (M)
+2 Batman vs Superman rating: (P)
+3 Zootopia rating: (G)
+4 Deadpool rating: (M)
+3
+Your ticket is ready to be collected!
+------------------------------------------------------------
+FILM TICKET for: Zootopia rating: (G)
+CUSTOMER DETAILS: Paludo age: 20 Student? Yes
+TOTAL COST: $TOTAL COST: $8,50
+------------------------------------------------------------
+
+Issue another ticket? (Y/N)
+Y
+Please enter your name:
+Ann
+Please enter your age:
+5
+Are you a student? (Y/N)
+N
+Which film would you like to watch:
+1 Suicide Squad rating: (M)
+2 Batman vs Superman rating: (P)
+3 Zootopia rating: (G)
+4 Deadpool rating: (M)
+4
+Sorry, cannot issue ticket for age restricted film.
+Issue another ticket? (Y/N)
+null
+N
+
