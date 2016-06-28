@@ -1,0 +1,3 @@
+﻿  Bingo Board.c
+d:\users\paludo\documents\visual studio 2015\projects\w09 lab\exercise 13\bingo board.c(7): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Exercise 13.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W09 Lab\Debug\Exercise 13.exe

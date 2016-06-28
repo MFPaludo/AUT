@@ -1,0 +1,6 @@
+﻿  Window with Controls.cpp
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 3\window with controls.cpp(19): error C2601: 'WndProc': local function definitions are illegal
+  d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 3\window with controls.cpp(6): note: this line contains a '{' which has not yet been matched
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 3\window with controls.cpp(27): error C2065: 'intlength': undeclared identifier
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 3\window with controls.cpp(28): error C2065: 'length': undeclared identifier
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 3\window with controls.cpp(29): error C2065: 'length': undeclared identifier

@@ -1,0 +1,7 @@
+﻿  Simple float Array with Absolute Value.c
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 07\simple float array with absolute value.c(18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 07\simple float array with absolute value.c(19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 07\simple float array with absolute value.c(20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 07\simple float array with absolute value.c(21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 07\simple float array with absolute value.c(22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Example 07.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W03 Lab Examples\Debug\Example 07.exe

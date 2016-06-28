@@ -1,0 +1,4 @@
+﻿  Holiday Tree.c
+d:\users\paludo\documents\visual studio 2015\projects\w06 lab\exercise 24\holiday tree.c(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+  Exercise 24.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W06 Lab\Debug\Exercise 24.exe

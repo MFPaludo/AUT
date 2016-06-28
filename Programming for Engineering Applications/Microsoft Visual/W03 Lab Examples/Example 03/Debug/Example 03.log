@@ -1,0 +1,3 @@
+﻿  Math Floor and Ceiling.c
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 03\math floor and ceiling.c(7): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 03\math floor and ceiling.c(6): fatal error C1075: the left brace '{' was unmatched at the end of the file

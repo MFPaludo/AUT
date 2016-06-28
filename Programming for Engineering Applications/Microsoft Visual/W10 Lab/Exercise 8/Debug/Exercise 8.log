@@ -1,0 +1,9 @@
+﻿  Rectangle Structure.c
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(35): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(36): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(38): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(39): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(41): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(42): warning C4305: '=': truncation from 'double' to 'float'
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 8\rectangle structure.c(59): warning C4133: 'function': incompatible types - from 'int *' to 'Point *'
+  Exercise 8.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W10 Lab\Debug\Exercise 8.exe

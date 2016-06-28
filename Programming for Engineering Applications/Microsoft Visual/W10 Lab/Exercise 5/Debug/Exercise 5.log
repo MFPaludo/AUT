@@ -1,0 +1,3 @@
+﻿  Pass by Value vs Pass by Reference, with Structures.c
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 5\pass by value vs pass by reference, with structures.c(46): warning C4305: '=': truncation from 'double' to 'float'
+  Exercise 5.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W10 Lab\Debug\Exercise 5.exe

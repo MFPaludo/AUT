@@ -1,0 +1,10 @@
+﻿  Passing a Structure by Reference.c
+d:\users\paludo\documents\visual studio 2015\projects\w10 examples\exercise 3\passing a structure by reference.c(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+d:\users\paludo\documents\visual studio 2015\projects\w10 examples\exercise 3\passing a structure by reference.c(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+d:\users\paludo\documents\visual studio 2015\projects\w10 examples\exercise 3\passing a structure by reference.c(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+d:\users\paludo\documents\visual studio 2015\projects\w10 examples\exercise 3\passing a structure by reference.c(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Exercise 3.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W10 Examples\Debug\Exercise 3.exe

@@ -1,0 +1,6 @@
+﻿  Binary File Demo.c
+d:\users\paludo\documents\visual studio 2015\projects\w11 lab examples\example 2\binary file demo.c(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+d:\users\paludo\documents\visual studio 2015\projects\w11 lab examples\example 2\binary file demo.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Example 2.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W11 Lab Examples\Debug\Example 2.exe

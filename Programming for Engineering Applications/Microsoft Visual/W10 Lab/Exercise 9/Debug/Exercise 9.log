@@ -1,0 +1,2 @@
+﻿  Making Space.c
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 9\making space.c(7): error C2075: 'temporary': array initialization requires a brace-enclosed initializer list

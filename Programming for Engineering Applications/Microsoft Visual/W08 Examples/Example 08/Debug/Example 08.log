@@ -1,0 +1,3 @@
+﻿  Simple Pointer Arithmetic.c
+d:\users\paludo\documents\visual studio 2015\projects\w08 examples\example 08\simple pointer arithmetic.c(12): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
+  Example 08.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W08 Examples\Debug\Example 08.exe

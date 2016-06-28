@@ -1,0 +1,3 @@
+﻿  Playing Card Factory.c
+d:\users\paludo\documents\visual studio 2015\projects\w10 lab\exercise 7\playing card factory.c(17): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Exercise 7.vcxproj -> d:\users\paludo\documents\visual studio 2015\Projects\W10 Lab\Debug\Exercise 7.exe

@@ -1,0 +1,3 @@
+﻿  Yahtzee Dice Roller with Array.c
+d:\users\paludo\documents\visual studio 2015\projects\w03 lab examples\example 08\yahtzee dice roller with array.c(7): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Example 08.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W03 Lab Examples\Debug\Example 08.exe

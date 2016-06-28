@@ -1,0 +1,9 @@
+﻿  Sailboat.c
+d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(5): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(5): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(6): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(6): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(7): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w01 lab\exercise 6\sailboat.c(7): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  LINK : D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W01 Lab\Debug\Exercise 6.exe not found or not built by the last incremental link; performing full link
+  Exercise 6.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W01 Lab\Debug\Exercise 6.exe

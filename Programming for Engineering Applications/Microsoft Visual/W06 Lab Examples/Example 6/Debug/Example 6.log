@@ -1,0 +1,5 @@
+﻿  Loop with break.c
+d:\users\paludo\documents\visual studio 2015\projects\w06 lab examples\example 6\loop with break.c(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\users\paludo\documents\visual studio 2015\projects\w06 lab examples\example 6\loop with break.c(28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Example 6.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W06 Lab Examples\Debug\Example 6.exe

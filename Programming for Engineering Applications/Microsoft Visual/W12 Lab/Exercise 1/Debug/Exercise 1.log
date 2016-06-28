@@ -1,0 +1,8 @@
+﻿  Colour Console Experiment.c
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(31): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(31): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(32): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(32): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(33): warning C4474: 'printf' : too many arguments passed for format string
+  d:\users\paludo\documents\visual studio 2015\projects\w12 lab\exercise 1\colour console experiment.c(33): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Exercise 1.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W12 Lab\Debug\Exercise 1.exe

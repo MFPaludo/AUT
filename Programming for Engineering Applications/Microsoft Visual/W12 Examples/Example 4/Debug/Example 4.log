@@ -1,0 +1,3 @@
+﻿  Window with GDI Drawing.cpp
+d:\users\paludo\documents\visual studio 2015\projects\w12 examples\example 4\window with gdi drawing.cpp(16): error C2440: 'initializing': cannot convert from 'HGDIOBJ' to 'HBRUSH'
+  d:\users\paludo\documents\visual studio 2015\projects\w12 examples\example 4\window with gdi drawing.cpp(16): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast

@@ -1,0 +1,12 @@
+﻿  Finding Quadratic Root.c
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\users\paludo\documents\visual studio 2015\projects\w05 lab\exercise 15\finding quadratic root.c(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Exercise 15.vcxproj -> D:\Users\Paludo\Documents\Visual Studio 2015\Projects\W05 Lab\Debug\Exercise 15.exe
