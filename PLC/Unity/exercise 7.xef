@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FEFExchangeFile>
+	<fileHeader company="Schneider Automation" product="Unity Pro XL V8.0 - 131118" dateTime="date_and_time#2016-3-31-11:36:7" content="Project source file" DTDVersion="41"></fileHeader>
+	<contentHeader name="Project" version="0.0.47" dateTime="date_and_time#2016-3-30-0:52:48"></contentHeader>
+	<commParameters>
+		<PLCAddress address="SYS" media="USB" nbTries="3" timeout="3000" highSpeed="0"></PLCAddress>
+		<simulatorAddress address="127.0.0.1" media="TCPIP" nbTries="3" timeout="3000"></simulatorAddress>
+		<bandwith animation="70" PLCMonitor="10" PLCScreen="10" diagnostic="10"></bandwith>
+	</commParameters>
+	<IOConf>
+		<PLC autoRun="false" MWInitZero="true" ColdStartOnly="false" ccotfActive="false" numberInternalWord="1024" numberConstantWord="256" numberInternalBit="512">
+			<partItem family="Micro Basic" partNumber="BMXP3420302" vendorName="Schneider Automation" version="02.10"></partItem>
+			<equipInfo topoAddress="\0.0\0.0" position="0"></equipInfo>
+			<configATS>
+				<busATS name="XBusMicro">
+					<equipInfo topoAddress="\0" position="0"></equipInfo>
+					<rackATS>
+						<partItem family="Rack" partNumber="BMXXBP0400" vendorName="Schneider Automation" version="01.00"></partItem>
+						<equipInfo topoAddress="\0.0\0" position="0"></equipInfo>
+						<powerSupply>
+							<partItem family="Supply" partNumber="BMXCPS2000" vendorName="Schneider Automation" version="01.00"></partItem>
+							<equipInfo topoAddress="\0.0\0.(P) (P)" position="-1"></equipInfo>
+						</powerSupply>
+						<moduleATS UCMod="true">
+							<partItem family="Micro Basic" partNumber="BMXP3420302" vendorName="Schneider Automation" version="02.10"></partItem>
+							<equipInfo topoAddress="\0.0\0.0" position="0"></equipInfo>
+							<configModule></configModule>
+							<masteredBusInfo name="CANopen MicroBasic" topoAddress="\3" communicatorPartNumber="CANopencommheadExpert">
+								<channelATS ASFCatKey="CANopenBM_Expert" task="MAST" number="2">
+									<descFB code="0" version="255"></descFB>
+									<descIOB IOBFileName="IOB_3_0210005_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x3700"></hexaValue>
+										<hexaValue hexaValue="0x3"></hexaValue>
+										<hexaValue hexaValue="0x80"></hexaValue>
+										<hexaValue hexaValue="0x64"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x20"></hexaValue>
+										<hexaValue hexaValue="0x32"></hexaValue>
+										<hexaValue hexaValue="0x32"></hexaValue>
+									</paramKW>
+								</channelATS>
+							</masteredBusInfo>
+						</moduleATS>
+						<moduleATS>
+							<partItem family="Discrete" partNumber="BMXDDM16022" vendorName="Schneider Automation" version="02.00"></partItem>
+							<equipInfo topoAddress="\0.0\0.1" position="1"></equipInfo>
+							<configModule>
+								<channelATS ASFCatKey="BasicInRackTORInSTD_MASTER" task="MAST" number="0">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0002000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x1"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+								<channelATS ASFCatKey="BaInRackTOROutReactivateAndFallBackAndSupplyMonitoring_MASTER" task="MAST" number="16">
+									<descFB code="1" version="17"></descFB>
+									<descIOB IOBFileName="IOB_0_0102000_32S" version="1"></descIOB>
+									<paramKW>
+										<hexaValue hexaValue="0x16"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+										<hexaValue hexaValue="0x0"></hexaValue>
+									</paramKW>
+								</channelATS>
+							</configModule>
+						</moduleATS>
+					</rackATS>
+				</busATS>
+				<busATS name="CANopenMicroBasic">
+					<equipInfo topoAddress="\3" position="3"></equipInfo>
+				</busATS>
+			</configATS>
+		</PLC>
+	</IOConf>
+	<EFBSource nameOfEFBType="CTU" version="1.00" dateTime="dt#2013-11-06-17:01:21">
+		<comment>Up counter only INT values</comment>
+		<attribute name="TypeDescriptiveForm" value="  This function block is used for counting INT values upward.  A &quot;1&quot; signal at the R input causes the value &quot;0&quot; to be assigned to the CV output.&#xA;  With each transition from &quot;0&quot; to &quot;1&quot; at the CU input, the value of CV is incremented by 1.&#xA;  When CV is &gt;= PV, the Q output is set to &quot;1&quot;.&#xA;&#xA;  Note: The counter only works to the maximum values of the data type being used.&#xA;        No overflow occurs.&#xA;&#xA;  This function block specification is defined in IEC 61131-3 and&#xA;  only works with the INT data type.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="36F2"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="6526"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="CU" typeName="BOOL">
+					<comment>Trigger input</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="R" typeName="BOOL">
+					<comment>Reset</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="PV" typeName="INT">
+					<comment>Preset value</comment>
+					<attribute name="PositionPin" value="3"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Indicator output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="CV" typeName="INT">
+					<comment>Count value</comment>
+					<attribute name="PositionPin" value="3"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<EFBSource nameOfEFBType="TON" version="1.00" dateTime="dt#2013-11-06-17:01:21">
+		<comment>On delay</comment>
+		<attribute name="TypeDescriptiveForm" value="  The function block is used as the On delay.  When the function block is called for the first time, the initial state of ET is &quot;0&quot;.&#xA;"></attribute>
+		<attribute name="IsTypeHidden" value="FALSE"></attribute>
+		<attribute name="IsTypeDiagnostic" value="FALSE"></attribute>
+		<attribute name="TypeCodeCheckSumString" value="B257"></attribute>
+		<attribute name="TypeSignatureCheckSumString" value="16D2"></attribute>
+		<ExternalToolsOnly>
+			<inputParameters>
+				<variables name="IN" typeName="BOOL">
+					<comment>Start delay</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+					<attribute name="IsPinDiagnosticable" value="0"></attribute>
+				</variables>
+				<variables name="PT" typeName="TIME">
+					<comment>Preset delay time</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</inputParameters>
+			<outputParameters>
+				<variables name="Q" typeName="BOOL">
+					<comment>Delayed output</comment>
+					<attribute name="PositionPin" value="1"></attribute>
+				</variables>
+				<variables name="ET" typeName="TIME">
+					<comment>Internal time</comment>
+					<attribute name="PositionPin" value="2"></attribute>
+				</variables>
+			</outputParameters>
+		</ExternalToolsOnly>
+	</EFBSource>
+	<dataBlock>
+		<variables name="Counter_1" typeName="CTU"></variables>
+		<variables name="Start" typeName="EBOOL"></variables>
+		<variables name="Timer_1" typeName="TON"></variables>
+		<variables name="Timer_1_Done" typeName="EBOOL"></variables>
+		<variables name="Timer_1_int_value" typeName="TIME"></variables>
+		<variables name="TON_0" typeName="TON"></variables>
+		<variables name="Output_1" typeName="EBOOL"></variables>
+		<variables name="Output_2" typeName="EBOOL"></variables>
+		<variables name="TON_1" typeName="TON"></variables>
+		<variables name="CTU_0" typeName="CTU"></variables>
+		<variables name="CTU_1" typeName="CTU"></variables>
+		<variables name="TON_2" typeName="TON"></variables>
+		<variables name="TON_3" typeName="TON"></variables>
+		<variables name="TON_4" typeName="TON"></variables>
+		<variables name="Timer_2_Done" typeName="BOOL"></variables>
+		<variables name="Timer_2_int_value" typeName="TIME"></variables>
+		<variables name="Counter_1_done" typeName="EBOOL"></variables>
+		<variables name="Counter_2_done" typeName="EBOOL"></variables>
+		<variables name="Counter_1_int_value" typeName="INT"></variables>
+		<variables name="Counter_2_int_value" typeName="INT"></variables>
+		<variables name="Counter_1_reset" typeName="EBOOL"></variables>
+		<variables name="Counter_2_reset" typeName="EBOOL"></variables>
+		<variables name="Press" typeName="BOOL" topologicalAddress="%S6">
+			<attribute name="TimeStampSource" value="3"></attribute>
+		</variables>
+		<variables name="TON_5" typeName="TON"></variables>
+		<variables name="TON_6" typeName="TON"></variables>
+	</dataBlock>
+	<Motion></Motion>
+	<logicConf>
+		<resource resName="Micro Basic" resIdent="BMX P34 20302 02.10">
+			<taskDesc task="MAST" taskType="cyclic" valueType="0" maxExecTime="250">
+				<sectionDesc name="Ladder"></sectionDesc>
+			</taskDesc>
+			<FMDesc name="Functional Project" FMId="ROOT"></FMDesc>
+		</resource>
+	</logicConf>
+	<program>
+		<identProgram name="Ladder" type="section" task="MAST"></identProgram>
+		<LDSource nbColumns="11">
+			<networkLD>
+				<typeLine>
+					<emptyCell nbCells="2"></emptyCell>
+					<FFBBlock instanceName="CTU_0" typeName="CTU" additionnalPinNumber="0" enEnO="true" width="10" height="5">
+						<objPosition posX="2" posY="0"></objPosition>
+						<descriptionFFB execAfter="">
+							<inputVariable invertedPin="false" formalParameter="EN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="CU"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="R"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="PV" effectiveParameter="2"></inputVariable>
+							<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="Q"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="CV" effectiveParameter="Counter_1_int_value"></outputVariable>
+						</descriptionFFB>
+					</FFBBlock>
+					<emptyCell nbCells="7"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Press"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="2"></emptyCell>
+					<coil typeCoil="coil" coilVariableName="Counter_1_done"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Timer_1_Done"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="9"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<emptyCell nbCells="2"></emptyCell>
+					<FFBBlock instanceName="TON_5" typeName="TON" additionnalPinNumber="0" enEnO="true" width="10" height="4">
+						<objPosition posX="2" posY="5"></objPosition>
+						<descriptionFFB execAfter="">
+							<inputVariable invertedPin="false" formalParameter="EN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="IN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="PT" effectiveParameter="T#1.5s"></inputVariable>
+							<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="Q"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="ET" effectiveParameter="Timer_1_int_value"></outputVariable>
+						</descriptionFFB>
+					</FFBBlock>
+					<emptyCell nbCells="7"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Counter_1_done"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="2"></emptyCell>
+					<coil typeCoil="coil" coilVariableName="Timer_1_Done"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Counter_1_done"></contact>
+					<HLink nbCells="3"></HLink>
+					<coil typeCoil="coil" coilVariableName="Output_1"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyCell nbCells="2"></emptyCell>
+					<FFBBlock instanceName="CTU_1" typeName="CTU" additionnalPinNumber="0" enEnO="true" width="10" height="5">
+						<objPosition posX="2" posY="10"></objPosition>
+						<descriptionFFB execAfter="">
+							<inputVariable invertedPin="false" formalParameter="EN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="CU"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="R"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="PV" effectiveParameter="2"></inputVariable>
+							<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="Q"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="CV" effectiveParameter="Counter_2_int_value"></outputVariable>
+						</descriptionFFB>
+					</FFBBlock>
+					<emptyCell nbCells="7"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Output_1"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="2"></emptyCell>
+					<coil typeCoil="coil" coilVariableName="Counter_2_done"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Timer_2_Done"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="9"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<emptyCell nbCells="2"></emptyCell>
+					<FFBBlock instanceName="TON_6" typeName="TON" additionnalPinNumber="0" enEnO="true" width="10" height="4">
+						<objPosition posX="2" posY="15"></objPosition>
+						<descriptionFFB execAfter="">
+							<inputVariable invertedPin="false" formalParameter="EN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="IN"></inputVariable>
+							<inputVariable invertedPin="false" formalParameter="PT" effectiveParameter="T#4.5s"></inputVariable>
+							<outputVariable invertedPin="false" formalParameter="ENO"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="Q"></outputVariable>
+							<outputVariable invertedPin="false" formalParameter="ET" effectiveParameter="Timer_2_int_value"></outputVariable>
+						</descriptionFFB>
+					</FFBBlock>
+					<emptyCell nbCells="7"></emptyCell>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Counter_2_done"></contact>
+					<HLink nbCells="1"></HLink>
+					<emptyCell nbCells="2"></emptyCell>
+					<coil typeCoil="coil" coilVariableName="Timer_2_Done"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="1"></emptyLine>
+				</typeLine>
+				<typeLine>
+					<contact typeContact="openContact" contactVariableName="Counter_2_done"></contact>
+					<HLink nbCells="3"></HLink>
+					<coil typeCoil="coil" coilVariableName="Output_2"></coil>
+					<HLink nbCells="6"></HLink>
+				</typeLine>
+				<typeLine>
+					<emptyLine nbRows="80"></emptyLine>
+				</typeLine>
+			</networkLD>
+		</LDSource>
+	</program>
+	<animationTable name="Animation_Table" location="" version="1.0" dateTime="date_and_time#2016-3-31-11:36:7" ExtStringAnim="0" ExtStringAnimLen="100">
+		<elementDescription displayBase="4" name="Start"></elementDescription>
+		<elementDescription displayBase="4" name="Timer_1_Done"></elementDescription>
+		<elementDescription displayBase="4" name="Timer_1_int_value"></elementDescription>
+	</animationTable>
+	<IOScreen version="V1.0">
+		<screen name="Simulation" screenX="1280" screenY="1024" BKColor="-1" valScreen="0" location="" creationDate="10/03/2016 - 11:27:42" modificationDate="17/03/2016 - 11:40:02" customInfos="" isPattern="0" valPattern="0">
+			<object objectID="18" description="(81,39,133,116),(-1,0,0,1),||">
+				<varPilot name="Start" typeName="EBOOL" description="Pilot:|0|0|"></varPilot>
+			</object>
+			<object objectID="12" description="(16,57,54,97),(0,1,65280),(11,0,65280)"></object>
+			<object objectID="15" description="(57,57,77,94),(0,1,0),(10,0,0),|Start|Courier New|,(9,0,0,0,0,0,0)"></object>
+			<object objectID="18" description="(214,36,266,114),(-1,0,0,1),||"></object>
+			<object objectID="12" description="(149,55,187,95),(0,1,65280),(11,0,65280)"></object>
+			<object objectID="15" description="(190,58,210,97),(0,1,0),(10,0,0),|Alarm|Courier New|,(9,0,0,0,0,0,0)"></object>
+			<object objectID="11" description="(7,16,405,383),(0,1,0),(10,0,0)"></object>
+			<object objectID="12" description="(17,57,55,97),(0,1,255),(11,0,255)"></object>
+			<object objectID="12" description="(149,55,187,95),(0,1,255),(11,0,255)"></object>
+			<object objectID="12" description="(14,156,52,196),(0,1,65280),(11,0,65280)"></object>
+			<object objectID="15" description="(57,144,77,213),(0,1,0),(10,0,0),|Timer On|Courier New|,(9,0,0,0,0,0,0)"></object>
+			<object objectID="12" description="(14,156,52,196),(0,1,255),(11,0,255)"></object>
+			<object objectID="18" description="(104,171,126,185),(-1,0,0,0),||">
+				<varPilot name="Timer_1_Done" typeName="EBOOL" description="Pilot:|0|1|"></varPilot>
+			</object>
+			<object objectID="19" description="(84,136,102,219),(-1,1,0,0)">
+				<varPilot name="Timer_1_int_value" typeName="TIME" description="Pilot:|-|-|"></varPilot>
+			</object>
+			<object objectID="12" description="(143,150,181,190),(0,1,65280),(11,0,65280)"></object>
+			<object objectID="15" description="(187,137,207,203),(0,1,0),(10,0,0),|Timer Off|Courier New|,(9,0,0,0,0,0,0)"></object>
+			<object objectID="12" description="(143,150,181,190),(0,1,255),(11,0,255)"></object>
+			<object objectID="18" description="(233,165,255,179),(-1,0,0,0),||">
+				<varPilot name="Timer_1_Done" typeName="EBOOL" description="Pilot:|0|1|"></varPilot>
+			</object>
+			<object objectID="19" description="(210,129,228,212),(-1,1,0,0)"></object>
+		</screen>
+	</IOScreen>
+	<Documentation version="V1.0">
+		<Station bDocumentationSave="0"></Station>
+		<Program_ST nMode="0" bXRef="0" bVariableUsed="0"></Program_ST>
+		<Program_IL nMode="0"></Program_IL>
+		<Program_FBD nMode="0"></Program_FBD>
+		<Program_LD nMode="0" bXRef="0" bVariableUsed="0"></Program_LD>
+		<Program_SFC nMode="0"></Program_SFC>
+		<OperatorScreens nSort="0" bMessageList="0" bGraphic="1" bVariable="0"></OperatorScreens>
+		<Variables_FBInstances nSort="0" bExpandArray="0" bExpandStructure="0" nProfile="0" b984Address="0"></Variables_FBInstances>
+		<TitlePage sDesigner="" sProject=""></TitlePage>
+		<General sGeneralInfo=""></General>
+		<Footer sAuthor="" sDepartment="" sBitmapPath="" sFreeText1="" sFreeText2="" sIndustrialProperty=""></Footer>
+	</Documentation>
+	<settings version="410">
+		<!--group unity.Settings-->
+		<!--group unity.General-->
+		<!--group unity.ManageBuildMessages-->
+		<entryvalue ident="unity.variableNotUsed" value="0"></entryvalue>
+		<entryvalue ident="unity.multiWritingOfVar" value="0"></entryvalue>
+		<entryvalue ident="unity.paramNotAssign" value="0"></entryvalue>
+		<entryvalue ident="unity.multiFBInstance" value="0"></entryvalue>
+		<entryvalue ident="unity.ddtMappingCompat" value="0"></entryvalue>
+		<entryvalue ident="unity.overlOfAdd" value="1"></entryvalue>
+		<entryvalue ident="unity.missingGatewayIPaddress" value="1"></entryvalue>
+		<entryvalue ident="unity.WarningsActif" value="1"></entryvalue>
+		<entryvalue ident="unity.NbWarnings" value="500"></entryvalue>
+		<entryvalue ident="unity.ErrorsActif" value="1"></entryvalue>
+		<entryvalue ident="unity.NbErrors" value="500"></entryvalue>
+		<!--group unity.BuildSettings-->
+		<entryvalue ident="unity.createNewDataBlockOnline" value="1"></entryvalue>
+		<entryvalue ident="unity.freeKbytes" value="1"></entryvalue>
+		<entryvalue ident="unity.virtCodeGenEnable" value="0"></entryvalue>
+		<entryvalue ident="unity.ldLink" value="1"></entryvalue>
+		<entryvalue ident="unity.ldOptCode" value="0"></entryvalue>
+		<entryvalue ident="unity.ApplyOnLineModif" value="1"></entryvalue>
+		<!--group unity.SaveOnDownload-->
+		<entryvalue ident="unity.SaveOnDownloadSTA" value="1"></entryvalue>
+		<entryvalue ident="unity.SaveOnDownloadSTU" value="0"></entryvalue>
+		<entryvalue ident="unity.SaveOnDownloadXVM" value="0"></entryvalue>
+		<!--group unity.PLCEmbeddedData-->
+		<entryvalue ident="unity.dataDictionary" value="0"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryPreload" value="0"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryChangeTimeOut" value="40"></entryvalue>
+		<entryvalue ident="unity.dataDictionaryOnlyHMIvariables" value="0"></entryvalue>
+		<entryvalue ident="unity.actif" value="1"></entryvalue>
+		<entryvalue ident="unity.comment" value="1"></entryvalue>
+		<entryvalue ident="unity.animTable" value="0"></entryvalue>
+		<entryvalue ident="unity.ETSManagementMode" value="1"></entryvalue>
+		<entryvalue ident="unity.OptimizeOnlineChange" value="0"></entryvalue>
+		<!--group unity.PLCdiagnostics-->
+		<entryvalue ident="unity.application" value="0"></entryvalue>
+		<entryvalue ident="unity.applevel" value="0"></entryvalue>
+		<entryvalue ident="unity.system" value="1"></entryvalue>
+		<entryvalue ident="unity.language" value="2"></entryvalue>
+		<entryvalue ident="unity.RackViewerDiag" value="1"></entryvalue>
+		<entryvalue ident="unity.RackViewerVariableNames" value="0"></entryvalue>
+		<entryvalue ident="unity.ProgViewerDiag" value="0"></entryvalue>
+		<!--group unity.PLCBehaviour-->
+		<entryvalue ident="unity.Reset_M_Stop_Run" value="0"></entryvalue>
+		<!--group unity.Path-->
+		<entryvalue ident="unity.HyperlinkRootPath" value=""></entryvalue>
+		<!--group unity.Time-->
+		<entryvalue ident="unity.TimeStampingMode" value="1"></entryvalue>
+		<entryvalue ident="unity.CustomTimeZone" value="0"></entryvalue>
+		<entryvalue ident="unity.TimeZone" value="87"></entryvalue>
+		<entryvalue ident="unity.TimeZoneOffset" value="720"></entryvalue>
+		<entryvalue ident="unity.AdjustClock" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartMonth" value="8"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartDay" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartOccurrence" value="5"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartHour" value="2"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartMinute" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartSecond" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingStartOffset" value="60"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndMonth" value="3"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndDay" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndOccurrence" value="1"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndHour" value="3"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndMinute" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndSecond" value="0"></entryvalue>
+		<entryvalue ident="unity.DaylightSavingEndOffset" value="0"></entryvalue>
+		<!--group unity.Configuration-->
+		<entryvalue ident="unity.PreferredIOVision" value="0"></entryvalue>
+		<!--group unity.Variables-->
+		<entryvalue ident="unity.leadingDigit" value="0"></entryvalue>
+		<entryvalue ident="unity.CharSet" value="0"></entryvalue>
+		<entryvalue ident="unity.EBoolEdge" value="1"></entryvalue>
+		<entryvalue ident="unity.intDIntAsWordDWord" value="1"></entryvalue>
+		<entryvalue ident="unity.extractAnyBit" value="1"></entryvalue>
+		<entryvalue ident="unity.directRepArray" value="0"></entryvalue>
+		<entryvalue ident="unity.dynamicArray" value="0"></entryvalue>
+		<entryvalue ident="unity.arraySizeCompCheck" value="0"></entryvalue>
+		<entryvalue ident="unity.FastScanningForTrending" value="0"></entryvalue>
+		<entryvalue ident="unity.ForceReferenceInit" value="1"></entryvalue>
+		<!--group unity.Program-->
+		<!--group unity.Languages-->
+		<entryvalue ident="unity.withFBD" value="1"></entryvalue>
+		<entryvalue ident="unity.withLD" value="1"></entryvalue>
+		<entryvalue ident="unity.withSFC" value="1"></entryvalue>
+		<entryvalue ident="unity.withIL" value="1"></entryvalue>
+		<entryvalue ident="unity.withST" value="1"></entryvalue>
+		<entryvalue ident="unity.with984" value="1"></entryvalue>
+		<!--group unity.languagecommon-->
+		<entryvalue ident="unity.generalProc" value="1"></entryvalue>
+		<entryvalue ident="unity.generalSub" value="1"></entryvalue>
+		<entryvalue ident="unity.nestedComment" value="0"></entryvalue>
+		<entryvalue ident="unity.multiAssign" value="0"></entryvalue>
+		<entryvalue ident="unity.emptyParam" value="1"></entryvalue>
+		<entryvalue ident="unity.STExpressions" value="1"></entryvalue>
+		<entryvalue ident="unity.RemanentLink" value="0"></entryvalue>
+		<entryvalue ident="unity.LDStructComment" value="0"></entryvalue>
+		<entryvalue ident="unity.implicitTypeConv" value="0"></entryvalue>
+		<!--group unity.FBD-->
+		<entryvalue ident="unity.FBDNbRow" value="240"></entryvalue>
+		<entryvalue ident="unity.FBDNbColumn" value="360"></entryvalue>
+		<!--group unity.LD-->
+		<entryvalue ident="unity.LDRightJustify" value="0"></entryvalue>
+		<entryvalue ident="unity.LDNbColumn" value="11"></entryvalue>
+		<entryvalue ident="unity.LDCellWidth" value="0"></entryvalue>
+		<entryvalue ident="unity.SingleScanEdgeDetectionEBool" value="0"></entryvalue>
+		<!--group unity.MixedDisplay-->
+		<entryvalue ident="unity.LDNbLinesCmt" value="1"></entryvalue>
+		<entryvalue ident="unity.LDNbLinesSym" value="1"></entryvalue>
+		<entryvalue ident="unity.LDNbLinesAdr" value="1"></entryvalue>
+		<!--group unity.SFC-->
+		<entryvalue ident="unity.macroSections" value="1"></entryvalue>
+		<entryvalue ident="unity.multiToken" value="0"></entryvalue>
+		<!--group unity.SFCmultiToken-->
+		<entryvalue ident="unity.nbActiveStep" value="32"></entryvalue>
+		<entryvalue ident="unity.nbActiveActions" value="96"></entryvalue>
+		<entryvalue ident="unity.setStep" value="1"></entryvalue>
+		<entryvalue ident="unity.parallelBranches" value="1"></entryvalue>
+		<entryvalue ident="unity.multiEvolution" value="1"></entryvalue>
+		<!--group unity.ST-->
+		<entryvalue ident="unity.jumpAndLabel" value="0"></entryvalue>
+		<!--group unity.LL984-->
+		<entryvalue ident="unity.SKPenabled" value="1"></entryvalue>
+		<!--group unity.NetworkDisplay-->
+		<!--group unity.View1-->
+		<entryvalue ident="unity.View1Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line6" value="0"></entryvalue>
+		<entryvalue ident="unity.View1Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View1FontHeight" value="10"></entryvalue>
+		<!--group unity.View2-->
+		<entryvalue ident="unity.View2Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View2Line6" value="3"></entryvalue>
+		<entryvalue ident="unity.View2Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View2FontHeight" value="10"></entryvalue>
+		<!--group unity.View3-->
+		<entryvalue ident="unity.View3Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line5" value="0"></entryvalue>
+		<entryvalue ident="unity.View3Line6" value="2"></entryvalue>
+		<entryvalue ident="unity.View3Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View3FontHeight" value="10"></entryvalue>
+		<!--group unity.View4-->
+		<entryvalue ident="unity.View4Line1" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line2" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line3" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line4" value="0"></entryvalue>
+		<entryvalue ident="unity.View4Line5" value="4"></entryvalue>
+		<entryvalue ident="unity.View4Line6" value="3"></entryvalue>
+		<entryvalue ident="unity.View4Line7" value="1"></entryvalue>
+		<entryvalue ident="unity.View4FontHeight" value="10"></entryvalue>
+		<entryvalue ident="unity.LL984PrintingView" value="3"></entryvalue>
+		<entryvalue ident="unity.LL984ColumnWidth" value="1,000000"></entryvalue>
+		<!--group unity.OperatorScreens-->
+		<entryvalue ident="unity.fullScreen" value="0"></entryvalue>
+		<!--group unity.ControlledScreen-->
+		<entryvalue ident="unity.varCtrlScreen" value=""></entryvalue>
+		<entryvalue ident="unity.displayScreenControl" value="0"></entryvalue>
+		<entryvalue ident="unity.displayScreenNumber" value="0"></entryvalue>
+		<!--group unity.LastOpenedScreen-->
+		<entryvalue ident="unity.varDispScreen" value=""></entryvalue>
+	</settings>
+</FEFExchangeFile>
