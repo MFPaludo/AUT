@@ -1,0 +1,107 @@
+Which airline would you like to travel with?
+
+
+1: FastAir Airline
+
+2: JetSun Airline
+
+2
+
+
+Welcome to the JetSun Airline reservation system
+
+
+Which flight would you like to reserve a seat on?
+
+1: Flight: AC123 from: YOW Ottawa International Airport to: LHR London Heathrow departing: 17:00h
+
+2: Flight: NZ9133 from: AKL Auckland International Airport to: LAX Los Angeles World Airports departing: 08:00h
+
+2
+
+
+Booking seats for Flight: NZ9133 from: AKL Auckland International Airport to: LAX Los Angeles World Airports departing: 08:00h
+     
+	A      B      C      D      E      F      G      
+  
+1 	[W X ] [A X ] [A X ] [M X ] [A X ] [A X ] [W X ]
+  
+2 	[W X ] [A X ] [A X ] [M X ] [A X ] [A X ] [W X ]
+  
+3 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+4 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+5 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+6 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+7 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+8 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+9 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+ 
+10 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+
+
+
+1. Reserve First Class
+
+2. Reserve Economy Class
+
+3. Show Seating Map
+
+4. Quit
+
+1
+
+
+Which seat type?
+1. WINDOW
+
+2. AISLE
+
+3. MIDDLE
+1
+     
+
+	A      B      C      D      E      F      G      
+  
+1 	[W X ] [A X ] [A X ] [M X ] [A X ] [A X ] [W X ]
+  
+2 	[W X ] [A X ] [A X ] [M X ] [A X ] [A X ] [W X ]
+  
+3 	[w X ] [a X ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+4 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+5 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+6 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+7 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+8 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+  
+9 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+ 
+10 	[w _ ] [a _ ] [a _ ] [m _ ] [a _ ] [a _ ] [w _ ]
+
+
+
+Seat reservation: Economy class AISLE seat at: 3B is reserved
+
+
+1. Reserve First Class
+
+2. Reserve Economy Class
+
+3. Show Seating Map
+
+4. Quit
+
+4
+
+
+Goodbye.

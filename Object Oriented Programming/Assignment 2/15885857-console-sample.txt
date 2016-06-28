@@ -1,0 +1,102 @@
+Which airline would you like to travel with?
+1: FastAir Airline
+2: JetSun Airline
+1
+
+Welcome to the FastAir reservation system!
+
+Which flight would you like to reserve a seat on?
+1: Flight: 3847 from: Curitiba, Aeroporto Afonso Pena(CWB) to: Porto Alegre, Aeroporto Salgado Filho(POA) departing: 08:05 AM
+2: Flight: NZ4515 from: Auckland, Auckland International Airport (AKL) to: Calgary, Calgary International Airport(YYC) departing: 09:50 PM
+1
+
+Booking seats for Flight: 3847 from: Curitiba, Aeroporto Afonso Pena(CWB) to: Porto Alegre, Aeroporto Salgado Filho(POA) departing: 08:05 AM
+
+	A      B      C      D      E      F      G      
+1	[W _  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+2	[W _  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+3	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+4	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+5	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+6	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+7	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+8	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+9	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+10	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+
+1. Reserve First Class
+2. Reserve Economy Class
+3. Show Seating Map
+4. Quit
+1
+
+1. AISLE
+2. MIDDLE
+3. WINDOW
+3
+
+First class WINDOW seat at: 1A is reserved.
+
+	A      B      C      D      E      F      G      
+1	[W X  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+2	[W _  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+3	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+4	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+5	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+6	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+7	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+8	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+9	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+10	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+
+1. Reserve First Class
+2. Reserve Economy Class
+3. Show Seating Map
+4. Quit
+2
+
+1. AISLE
+2. MIDDLE
+3. WINDOW
+3
+
+Economy class WINDOW seat at: 3A is reserved.
+
+	A      B      C      D      E      F      G      
+1	[W X  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+2	[W _  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+3	[w x  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+4	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+5	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+6	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+7	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+8	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+9	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+10	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+
+1. Reserve First Class
+2. Reserve Economy Class
+3. Show Seating Map
+4. Quit
+3
+
+	A      B      C      D      E      F      G      
+1	[W X  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+2	[W _  ][A _  ][A _  ][M _  ][A _  ][A _  ][W _  ]
+3	[w x  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+4	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+5	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+6	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+7	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+8	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+9	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+10	[w _  ][a _  ][a _  ][m _  ][a _  ][a _  ][w _  ]
+
+1. Reserve First Class
+2. Reserve Economy Class
+3. Show Seating Map
+4. Quit
+4
+
+
+Goodbye.

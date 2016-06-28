@@ -1,0 +1,193 @@
+Which airline would you like to travel with?
+
+1: FastAir Airline
+
+2: JetSun Airline
+
+
+2
+
+Welcome to the JetSun Airline reservation system
+
+
+Which flight would you like to reserve a seat on?
+
+1: Flight: AC123 from: YOW Ottawa International Airport to: LHR London Heathrow departing: 17:00h
+
+2: Flight: NZ9133 from: AKL Auckland International Airport to: LAX Los Angeles World Airports departing: 08:00h
+
+
+1
+
+Booking seats for Flight: AC123 from: YOW Ottawa International Airport to: LHR London Heathrow departing: 17:00h
+
+
+	A      B      C      D      E      F      G      H      I      
+  
+1	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+2	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+3	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+4	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+5	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+6	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+7	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+8	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+9	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+10	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+11	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+12	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+
+
+
+1. Reserve First Class
+
+2. Reserve Economy Class
+
+3. Show Seating Map
+
+4. Quit
+
+2
+
+
+Which seat type?
+
+	1. WINDOW
+	
+2. AISLE
+
+	3. MIDDLE
+
+1
+
+	A      B      C      D      E      F      G      H      I
+1	[W X ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+2	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+3	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+4 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+5 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+6 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+7 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+8 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+9 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+10 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+11 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+12 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+
+
+
+Seat reservation: First class WINDOW seat at: 1A is reserved
+
+
+1. Reserve First Class
+
+2. Reserve Economy Class
+
+3. Show Seating Map
+
+4. Quit
+
+1
+
+
+Which seat type?
+
+	1. WINDOW
+
+	2. AISLE
+
+	3. MIDDLE
+
+3
+
+
+	A      B      C      D      E      F      G      H      I      
+  
+1	[W X ] [M X ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+2 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+3 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+4 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+5 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+6 	[W _ ] [M _ ] [A _ ] [A _ ] [M _ ] [A _ ] [A _ ] [M _ ] [W _ ]
+  
+7 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+8 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+  
+9 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+10 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+11 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+ 
+12 	[w X ] [m X ] [a X ] [a X ] [m X ] [a X ] [a X ] [m X ] [w X ]
+
+
+
+Seat reservation: First class MIDDLE seat at: 1B is reserved
+
+
+1. Reserve First Class
+
+2. Reserve Economy Class
+
+3. Show Seating Map
+
+4. Quit
+
+4
+
+
+Goodbye.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
