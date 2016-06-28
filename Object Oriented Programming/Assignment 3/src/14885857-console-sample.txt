@@ -1,0 +1,217 @@
+Reading purchase transcript: purchase-history.txt
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+2
+You don't have products in your cart, you should buy some stuff.
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+You don't have products in your cart, you should buy some stuff.
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+2 GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+3 GAME: Fallout 4 (200) - Price: $100.00
+4 CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+5 CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Please choose a menu item: (1-5)
+1
+Adding BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+2 GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+3 GAME: Fallout 4 (200) - Price: $100.00
+4 CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+5 CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Please choose a menu item: (1-5)
+2
+Adding GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+2 GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+3 GAME: Fallout 4 (200) - Price: $100.00
+4 CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+5 CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Please choose a menu item: (1-5)
+3
+Adding GAME: Fallout 4 (200) - Price: $100.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+2 GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+3 GAME: Fallout 4 (200) - Price: $100.00
+4 CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+5 CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Please choose a menu item: (1-5)
+4
+Adding CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+2 GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+3 GAME: Fallout 4 (200) - Price: $100.00
+4 CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+5 CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Please choose a menu item: (1-5)
+5
+Adding CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+2
+------------------------------------------------
+Contents of your cart
+BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+GAME: Fallout 4 (200) - Price: $100.00
+CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+------------------------------------------------
+Contents of your cart
+BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+GAME: Fallout 4 (200) - Price: $100.00
+CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Pay full amount?
+1. Yes
+2. No, back to main menu
+Please choose a menu item: (1-2)
+2
+Payment not completed, going back to the menu
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+2
+------------------------------------------------
+Contents of your cart
+BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+GAME: Fallout 4 (200) - Price: $100.00
+CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+------------------------------------------------
+Contents of your cart
+BOOK: The End of Eternity (Isaac Asimov) (865) - Price: $30.00
+GAME: The Witcher 3: Wild Hunt (199) - Price: $100.00
+GAME: Fallout 4 (200) - Price: $100.00
+CONSOLE: 1TB Xbox One + 2 games (123) - Price: $650.00
+CONSOLE: New Nintendo 3DS XL Hyrule Edition (187) - Price: $300.00
+
+Pay full amount?
+1. Yes
+2. No, back to main menu
+Please choose a menu item: (1-2)
+1
+Thank you for your purchase.
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+2
+You don't have products in your cart, you should buy some stuff.
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+You don't have products in your cart, you should buy some stuff.
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+4
+Thank you for using the online shop

@@ -1,0 +1,114 @@
+Note: Your application should generate similar output.
+You may not use the same products as listed in this output.
+If the products are the same, you will not get any marks for that portion
+of the assignment
+
+
+
+
+Reading purchase transcript: purchase-history.txt
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+Your cart is currently empty
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 Rubik's Cube, size: 4 (123) price: $10.00
+2 Book: The Big Sleep by Raymond Chandler. (199) price: $16.00
+3 Play Station 4 (865) price: $400.00
+4 Men's Suit (Blue). (200) price: $2000.00
+5 Rolex watch. (187) price: $7999.00
+Please choose a menu item: (1-5)
+1
+Adding Rubik's Cube, size: 4 (123) price: $10.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+2
+------------------------------------------------
+Contents of your cart (sorted by price)
+Rubik's Cube, size: 4 (123) price: $10.00
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+------------------------------------------------
+Contents of your cart (sorted by price)
+Rubik's Cube, size: 4 (123) price: $10.00
+Total amount owing: $10.00
+Pay full amount?
+1. Yes
+2. No, back to main menu
+Please choose a menu item: (1-2)
+1
+Thank you for your purchase.
+You may also be interested in purchasing these products:
+[Book: The Big Sleep by Raymond Chandler. (199) price: $16.00, Play Station 4 (865) price: $400.00]
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+1
+------------------------------------------------
+Please select a product from the menu
+1 Rubik's Cube, size: 4 (123) price: $10.00
+2 Book: The Big Sleep by Raymond Chandler. (199) price: $16.00
+3 Play Station 4 (865) price: $400.00
+4 Men's Suit (Blue). (200) price: $2000.00
+5 Rolex watch. (187) price: $7999.00
+Please choose a menu item: (1-5)
+3
+Adding Play Station 4 (865) price: $400.00 to your cart
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+3
+------------------------------------------------
+Contents of your cart (sorted by price)
+Play Station 4 (865) price: $400.00
+Total amount owing: $400.00
+Pay full amount?
+1. Yes
+2. No, back to main menu
+Please choose a menu item: (1-2)
+1
+Thank you for your purchase.
+You may also be interested in purchasing these products:
+[Rubik's Cube, size: 4 (123) price: $10.00, Book: The Big Sleep by Raymond Chandler. (199) price: $16.00]
+------------------------------------------------
+Online Shop functionality
+1. Add product to cart
+2. View your shopping cart
+3. Finalise purchases
+4. Quit
+Please choose a menu item: (1-4)
+4
+Thank you for using the online shop
